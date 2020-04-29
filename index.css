@@ -1,0 +1,181 @@
+a.nav-link{
+    font-weight: bold;
+    color: black;
+}
+
+.navbar{
+    background-color: #666699; 
+    opacity:0.8;
+
+}
+
+.col-md-1{
+    background-color: #e0e0eb;
+}
+
+.col-md-2{
+    background-color: #e0e0eb;
+}
+.container-fluid{
+    background-color: #e0e0eb;
+}
+
+img{
+    float: left;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+
+.container-fluid{
+    color: #192634;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+   
+}
+
+h1.container-fluid{
+    text-align: center;
+}
+
+#Contact{
+    background-color: #666699;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+    margin: 0px; 
+}
+
+#Contact a:link {
+      color:white;
+    } 
+
+#Contact a:hover{
+  color:yellow;
+}
+
+#Contact a:visited{
+  color:pink;
+}
+
+
+body{
+    margin: 0px;
+}
+
+.row{
+    margin: 0px;
+}
+
+a.fa {
+    padding: 20px;
+    font-size: 50px;
+    /*text-align: center;*/
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: black;
+    opacity: 0.8;
+  }
+
+img.img-rounded{
+    height: 60px;
+    width: 60px;
+    border:1px solid #021a40;
+    align-self: center;
+}
+
+a.iconclass{
+   /*padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;*/
+    color: black;
+    float: left;
+    margin: 10px;
+    font-size: 50px;
+    border-radius: 15px;
+}
+
+#techskills{
+    color: #5c5c8a; opacity:0.8;
+    padding-left: 23px;
+}
+
+
+#rightpanel{
+    padding-left: 30px;
+    padding-top: 35px;
+
+}
+
+nav.circle div a{
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+nav.circle div a:after {
+  display: block;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '.';
+  color: transparent;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: transparent;
+}
+nav.circle div a:hover:after {
+  -webkit-animation: circle 1.5s ease-in forwards;
+}
+
+nav div a {
+  display: block;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+nav div a,
+nav div a:after,
+nav div a:before {
+  transition: all .5s;
+}
+
+nav div a:hover {
+  color: #404040;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    width: 1px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 1px;
+    z-index: -1;
+    background: #eee;
+    border-radius: 100%;
+  }
+  100% {
+    background: linear-gradient(to bottom, #cc66ff 0%, #0099cc 100%);
+    height: 5000%;
+    width: 5000%;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0;
+  }
+}
